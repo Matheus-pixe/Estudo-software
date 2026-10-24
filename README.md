@@ -5,15 +5,27 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-em%20aprendizado-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python em aprendizado">
-  <img src="https://img.shields.io/badge/SQL-em%20aprendizado-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL em aprendizado">
-  <img src="https://img.shields.io/badge/Excel-fundamentos-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel fundamentos">
-  <img src="https://img.shields.io/badge/Git%20%26%20GitHub-prática-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git e GitHub">
+  <img src="https://img.shields.io/badge/Python-em%20aprendizado-20C20E?style=for-the-badge&logo=python&logoColor=white" alt="Python em aprendizado">
+  <img src="https://img.shields.io/badge/SQL-em%20aprendizado-20C20E?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL em aprendizado">
+  <img src="https://img.shields.io/badge/Excel-fundamentos-20C20E?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel fundamentos">
+  <img src="https://img.shields.io/badge/Git%20%26%20GitHub-prática-20C20E?style=for-the-badge&logo=git&logoColor=white" alt="Git e GitHub">
 </p>
 
 Sou estudante de **Engenharia de Software na UNIFAN** e utilizo este repositório para registrar minha evolução: exercícios, anotações, experimentos e projetos desenvolvidos durante os estudos.
 
 Meu foco é construir uma base sólida em **lógica de programação, Python, bancos de dados e análise de dados**, praticando de forma gradual e documentando o que aprendo.
+
+## 📍 Meu nível atual
+
+**Nível geral: iniciante — fundamentos em desenvolvimento.**
+
+- **Python:** iniciante. Já estou praticando entrada de dados, variáveis, condicionais, laços, funções e tratamento básico de erros em exercícios como uma calculadora.
+- **Lógica de programação:** fundamentos em desenvolvimento, com prática por meio de exercícios.
+- **SQL:** em fase inicial de estudo; construindo a base de consultas e bancos de dados.
+- **Excel:** estudando fundamentos por meio de curso básico.
+- **Git e GitHub:** aprendendo a organizar projetos, documentar estudos e versionar alterações.
+
+Esta classificação representa o estágio atual de aprendizagem, não uma certificação ou avaliação formal. Meu próximo objetivo é consolidar esses fundamentos e desenvolver projetos funcionais, testados e documentados.
 
 > **Este repositório está em evolução.** Os projetos e conteúdos refletem meu processo de aprendizagem; itens planejados não significam funcionalidades concluídas.
 
