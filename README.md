@@ -1,40 +1,79 @@
-# Caderno de Estudos — Tecnologia
+# Caderno de Estudos — Engenharia de Software
 
-**Um espaço para organizar exercícios, anotações e projetos da minha formação em Engenharia de Software.**
+<p align="center">
+  <strong>Meu espaço de aprendizagem prática em programação, dados e ferramentas de desenvolvimento.</strong>
+</p>
 
-![Python](https://img.shields.io/badge/Python-em%20estudo-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-em%20estudo-4479A1?style=flat-square&logo=databricks&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-fundamentos-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-em%20aprendizado-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python em aprendizado">
+  <img src="https://img.shields.io/badge/SQL-em%20aprendizado-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL em aprendizado">
+  <img src="https://img.shields.io/badge/Excel-fundamentos-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel fundamentos">
+  <img src="https://img.shields.io/badge/Git%20%26%20GitHub-prática-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git e GitHub">
+</p>
 
-## Organização
+Sou estudante de **Engenharia de Software na UNIFAN** e utilizo este repositório para registrar minha evolução: exercícios, anotações, experimentos e projetos desenvolvidos durante os estudos.
 
-| Pasta | Conteúdo |
+Meu foco é construir uma base sólida em **lógica de programação, Python, bancos de dados e análise de dados**, praticando de forma gradual e documentando o que aprendo.
+
+> **Este repositório está em evolução.** Os projetos e conteúdos refletem meu processo de aprendizagem; itens planejados não significam funcionalidades concluídas.
+
+## 📚 Navegação
+
+| Área | O que você encontrará |
 |---|---|
-| [`python/`](./python/README.md) | Lógica, exercícios e pequenos programas Python. |
-| [`sql/`](./sql/README.md) | Consultas SQL e fundamentos de banco de dados. |
-| [`excel-powerbi/`](./excel-powerbi/README.md) | Exercícios de Excel e, futuramente, Power BI. |
-| [`projetos/`](./projetos/README.md) | Projetos práticos em desenvolvimento. |
-| [`devops-docker/`](./devops-docker/README.md) | Anotações de DevOps e Docker. |
+| [🐍 Python](./python/README.md) | Exercícios de lógica, funções, estruturas de controle e pequenos programas. |
+| [🗃️ SQL](./sql/README.md) | Estudos de consultas, tabelas e fundamentos de bancos de dados. |
+| [📊 Excel e Power BI](./excel-powerbi/README.md) | Fundamentos de planilhas e trilha de aprendizagem em análise de dados. |
+| [🧪 Projetos práticos](./projetos/README.md) | Projetos organizados por objetivo, com documentação e próximos passos. |
+| [🐳 DevOps e Docker](./devops-docker/README.md) | Anotações e experimentos introdutórios com ferramentas de desenvolvimento. |
 
-## Projeto em destaque
+## 🚀 Projetos para acompanhar
 
 ### [Calculadora em Python](./projetos/calculadora/)
+Aplicação introdutória para praticar entrada de dados, funções, operações matemáticas, validação e tratamento de erros.
 
-Projeto inicial para praticar funções, entrada e validação de dados, estruturas condicionais, laços de repetição e tratamento de erros.
+### [Sistema de controle de ponto](./projetos/controle_ponto/)
+Planejamento inicial de um sistema para registrar marcações de ponto e apoiar a geração de relatórios. A documentação e o esquema SQL servem como ponto de partida; o sistema ainda precisa ser desenvolvido.
 
-## Como usar este repositório
+### [Análise de dados de vendas](./projetos/analise_dados/)
+Projeto de estudo com uma base de vendas fictícia, pensado para praticar organização de dados e, futuramente, análises com ferramentas como Python, SQL e Excel.
 
-- Separe exercícios por tema e dê nomes que expliquem o objetivo.
-- Inclua um README em cada projeto com problema, objetivo, como executar e o que aprendeu.
-- Registre dúvidas e melhorias futuras sem dizer que algo está concluído quando ainda não estiver.
-- Não envie senhas, tokens, chaves, arquivos `.env` ou dados pessoais para o GitHub.
+Consulte a pasta [projetos](./projetos/README.md) para ver a organização e o andamento de cada iniciativa.
 
-## Convenção de nomes
+## 🧰 Ferramentas e temas de estudo
 
-- Pastas e arquivos Python: `snake_case` (por exemplo, `calculadora.py`).
-- Commits objetivos: `feat: adiciona calculadora`, `docs: explica exercício`, `fix: corrige validação`.
-- Um projeto maior pode ganhar seu próprio repositório quando fizer sentido, mantendo aqui exercícios e experimentos menores.
+- **Programação:** lógica e Python.
+- **Banco de dados:** fundamentos de SQL.
+- **Dados:** Excel e introdução à análise de dados.
+- **Desenvolvimento:** Git, GitHub e primeiros contatos com Docker.
 
-## Status
+As tecnologias listadas representam temas de estudo, não necessariamente domínio profissional.
 
-Este é um caderno de aprendizagem contínua. Os conteúdos serão adicionados conforme forem estudados e praticados.
+## 🗂️ Como organizo os estudos
+
+- Cada área tem uma pasta própria para facilitar a navegação.
+- Os projetos possuem documentação com objetivo, estrutura e próximos passos.
+- Exercícios e aplicações são adicionados conforme avanço nos estudos.
+- As alterações são registradas com commits que descrevem o que foi feito.
+
+### Padrão de nomes e commits
+
+- Arquivos e funções Python usam, quando aplicável, o padrão `snake_case`, como `calculadora.py`.
+- Mensagens de commit devem ser curtas e objetivas, por exemplo:
+  - `feat: adiciona operação de divisão`
+  - `docs: melhora documentação do projeto`
+  - `fix: valida entrada numérica`
+
+## 🎯 Objetivo deste repositório
+
+Manter um histórico real da minha evolução em Engenharia de Software, desenvolver o hábito de documentar código e construir projetos que possam ser revisados e aprimorados ao longo do tempo.
+
+## 🔐 Boas práticas
+
+Não publique senhas, tokens de acesso, chaves de API, arquivos `.env` ou dados pessoais/sensíveis. Bases de dados usadas em exercícios devem ser fictícias ou estar devidamente autorizadas para publicação.
+
+---
+
+<p align="center">
+  <em>Aprender, praticar, documentar e melhorar continuamente.</em>
+</p>
