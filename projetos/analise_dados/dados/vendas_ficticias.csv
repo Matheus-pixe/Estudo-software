@@ -1,0 +1,11 @@
+pedido_id,data,categoria,produto,quantidade,preco_unitario
+1001,2026-01-05,Informática,Mouse,2,45.90
+1002,2026-01-08,Escritório,Caderno,5,12.50
+1003,2026-01-15,Informática,Teclado,1,129.90
+1004,2026-02-02,Escritório,Caneta,10,2.50
+1005,2026-02-10,Informática,Mouse,1,45.90
+1006,2026-02-19,Escritório,Organizador,3,24.90
+1007,2026-03-03,Informática,Webcam,2,159.90
+1008,2026-03-12,Escritório,Caderno,4,12.50
+1009,2026-03-21,Informática,Teclado,2,129.90
+1010,2026-03-28,Escritório,Caneta,8,2.50
