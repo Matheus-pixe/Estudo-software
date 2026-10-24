@@ -1,5 +1,3 @@
-<div align="center">
-
 # Caderno de Estudos — Tecnologia
 
 **Um espaço para organizar exercícios, anotações e projetos da minha formação em Engenharia de Software.**
@@ -8,8 +6,6 @@
 ![SQL](https://img.shields.io/badge/SQL-em%20estudo-4479A1?style=flat-square&logo=databricks&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-fundamentos-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
 
-</div>
-
 ## Organização
 
 | Pasta | Conteúdo |
@@ -17,8 +13,14 @@
 | [`python/`](./python/README.md) | Lógica, exercícios e pequenos programas Python. |
 | [`sql/`](./sql/README.md) | Consultas SQL e fundamentos de banco de dados. |
 | [`excel-powerbi/`](./excel-powerbi/README.md) | Exercícios de Excel e, futuramente, Power BI. |
-| [`projetos/`](./projetos/README.md) | Ideias e projetos integradores em desenvolvimento. |
-| [`devops-docker/`](./devops-docker/README.md) | Anotações sobre Docker e o laboratório de aula. |
+| [`projetos/`](./projetos/README.md) | Projetos práticos em desenvolvimento. |
+| [`devops-docker/`](./devops-docker/README.md) | Anotações de DevOps e Docker. |
+
+## Projeto em destaque
+
+### [Calculadora em Python](./projetos/calculadora/)
+
+Projeto inicial para praticar funções, entrada e validação de dados, estruturas condicionais, laços de repetição e tratamento de erros.
 
 ## Como usar este repositório
 
@@ -29,7 +31,7 @@
 
 ## Convenção de nomes
 
-- Pastas e arquivos: `snake_case` para Python (por exemplo, `calculadora.py`).
+- Pastas e arquivos Python: `snake_case` (por exemplo, `calculadora.py`).
 - Commits objetivos: `feat: adiciona calculadora`, `docs: explica exercício`, `fix: corrige validação`.
 - Um projeto maior pode ganhar seu próprio repositório quando fizer sentido, mantendo aqui exercícios e experimentos menores.
 
