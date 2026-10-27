@@ -1,54 +1,50 @@
-def ler_numero(mensagem):
-    """Lê um número válido informado pelo usuário."""
+#calculadora
+def Ler(mensagem):
     while True:
         try:
-            return float(input(mensagem).replace(",", "."))
+            return float(input(mensagem))
         except ValueError:
-            print("Entrada inválida. Digite um número, como 10 ou 2,5.")
+            print('Deve ser colocado um numeral!')
 
-
-def calcular(num1, num2, operacao):
-    """Executa a operação escolhida e retorna o resultado."""
-    if operacao == "+":
-        return num1 + num2
-    if operacao == "-":
-        return num1 - num2
-    if operacao == "*":
-        return num1 * num2
-    if operacao == "/":
-        if num2 == 0:
-            return None
-        return num1 / num2
-    return "operacao_invalida"
-
-
-def main():
-    print("=" * 30)
-    print("       CALCULADORA")
-    print("=" * 30)
-
+def Op(mensagem):
     while True:
-        num1 = ler_numero("Primeiro número: ")
-        operacao = input("Operação (+, -, *, /) ou 'sair': ").strip().lower()
+        texto = input(mensagem).lower().strip()
+        if texto:
+            return texto
+        print('Deve ser utilzado uma operação') #MELHORAR
 
-        if operacao == "sair":
-            print("Calculadora encerrada.")
-            break
+def opera():
+    match operacao:
+        case '+':
+            print(f'{num1}+{num2}={num1+num2}')
+        case '-':
+            print(f'{num1}-{num2}={num1-num2}')
+        case 'x'|'*':
+            print(f'{num1}x{num2}={num1*num2:.2f}')
+        case '/':
+            if num2 == 0:
+                print('Não é possivel a divisão por zero')
+            else:
+                print(f'{num1}/{num2}={num1/num2:.2f}')
+        case '**':
+            print(f'{num1}^{num2}={num1**num2}') #MELHORAR
 
-        if operacao not in ("+", "-", "*", "/"):
-            print("Operação inválida. Escolha +, -, * ou /.")
-            continue
+        case _:
+            print('Infelizmente deve ser digitado alguma operação.(+, -, x , /,**)')
+            return operacao
 
-        num2 = ler_numero("Segundo número: ")
-        resultado = calcular(num1, num2, operacao)
-
-        if resultado is None:
-            print("Erro: não é possível dividir por zero.")
-        else:
-            print(f"Resultado: {resultado:g}" if isinstance(resultado, float) else f"Resultado: {resultado}")
-
-        print("-" * 30)
-
-
-if __name__ == "__main__":
-    main()
+        
+while True:
+    print('='*21)
+    print('     CALCULADORA')
+    print('='*21)
+    num1 = Ler('Escreva um numero: \n')
+    num2 = Ler('Outro numero: \n')
+    operacao = Op('Qual será a operação usada? + , - , x|* ,/ ou **?\n').lower().strip()
+    
+    print("Ok. calculando...")
+    opera()
+    if input('Calcular novamente? (s/n)\n').lower().strip() != 's':
+        break
+    print('Calculo Finalizado')
+    
